@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<!-- CSS fájlok beszúrása. -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+	<body>
+		<!-- Navigáció -->
+		<nav>
+			<a href="http://origo.hu" 
+				 target="_blank">Origo</a> <!-- Új lapon nyitja meg -->
+			<a href="pages/about.html">Rólunk</a>
+			<a href="#section1">Első szekció</a>
+			<a href="#section2">Második szekció</a>
+			<a href="#" onclick="bigSection()">Szekció növelése</a>
+		</nav>
+		
+		<!-- Első szekció -->
+		<section id="section1">
+			<!-- Új bejegyzés. -->
+			<article>
+				<h1>ItFactory tanfolyam</h1>
+				<p>HTML5 tanfolyam,<br> az ITFactory gondozásában.</p>
+				<img
+						 src="http://sulihalo.hu/kepek/5095-elektromos-auto-negy-motorral.jpg" 
+						 style="max-width: 100px; border: solid 5px #e0e0e0;" 
+						 id="img1" 
+						 class="test-images">
+			</article>
+		</section>
+		
+		<div style="height:200px;">&nbsp;</div>
+
+		<!-- Második szekció -->
+		<section id="section2">
+			<!-- ASide elemek. -->
+			<aside style="float:left;" >
+				<h3> Oldalra csoportosított elemek</h3>
+			</aside>
+			<aside style="float:left;" >
+				<h3> Oldalra csoportosított elemek</h3>
+			</aside>
+			<aside style="float:right;" >
+				<h3> Oldalra csoportosított elemek</h3>
+			</aside>
+		</section>
+
+		<div style="height:1000px;">&nbsp;</div>
+
+		<!-- Lábléc. -->
+		<footer style="position: fixed; left:0; right:0; bottom:0;">
+			&copy; Kiszely György
+		</footer>
+		
+		<!-- JS fájlok beszúrása. -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

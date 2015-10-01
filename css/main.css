@@ -1,0 +1,12 @@
+body {
+}
+
+#section1 {
+	transition: all 1s;
+	/*height: 0;
+	opacity: 0;*/
+}
+#section1.big {
+	opacity: 1;
+	height: 1000px;
+}
